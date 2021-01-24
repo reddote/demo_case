@@ -59,7 +59,6 @@ public class AIController : MonoBehaviour{
             _tempTransform = transformDestination.position;
             _isArrived = false;
         }
-        
         npc.destination = _tempTransform;
     }
 
